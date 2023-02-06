@@ -1,0 +1,63 @@
+.main {
+    margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.red-italic {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.brown {
+    color: brown;
+}
+
+.yellow {
+    color: orange;
+}
+
+.green-header {
+    background-color: green;
+    color: white;
+    padding: 6px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold
+}
+
+.list {
+    font-size: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-self: center;
+}
+
+.share {
+    background-color: rgb(54, 155, 255);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.comment {
+    background-color: orangered;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 20px;
+}

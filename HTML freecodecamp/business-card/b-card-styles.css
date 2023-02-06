@@ -1,0 +1,22 @@
+body {
+    margin: 20px;
+}
+
+.card {
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    background-color: bisque;
+    border-bottom-color: aqua;
+    border-bottom: 5px solid aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+
+}

@@ -1,0 +1,13 @@
+.item {
+    border: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-wrapper {
+    display: flex;
+    justify-self: center;
+}
