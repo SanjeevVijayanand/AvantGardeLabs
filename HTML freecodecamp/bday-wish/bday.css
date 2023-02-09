@@ -1,15 +1,57 @@
 body {
-    text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background-color: #a2d2ff;
+    background-color: rgb(51, 84, 72);
     color: #ffffff;
+    background: linear-gradient(rgb(62, 62, 203), rgb(236, 115, 135));
 }
 #bff-img {
-    width: 150px;
-    height: 150px;
+    height: 200px;
     border-radius: 500px;
     border: 5px #EFB0C9 solid;
 }
-h1, h2, h4 {
+h1, h2, h3, h4 {
     text-shadow: 0 0 2px black;
+}
+#age {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 0px 0;
+}
+
+#date {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 5px 0;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gift {
+    background-image: url("https://images.unsplash.com/photo-1533986071448-db0602d71739?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    border: solid 4px pink;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.gift-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+#gift-title {
+    margin-bottom: 5px;
+}
+#gift-hover {
+    margin-top: 5px
+}
+#gift:hover {
+    background-image: url(https://i.gifer.com/origin/65/651d5042e49e2eea63ea94c09e119716_w200.gif);
+    background-size: cover;
+    ;
 }
