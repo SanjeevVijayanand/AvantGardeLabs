@@ -1,0 +1,14 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    background-color: #a2d2ff;
+    color: #ffffff;
+}
+#bff-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    border: 5px #EFB0C9 solid;
+}
+h1, h2, h4 {
+    text-shadow: 0 0 2px black;
+}
